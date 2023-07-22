@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+   background-color: white;
+}
+.container{
+   
+ width: 100%;
+    height: 400px;
+    background-image: url("./photo/bg.jpg");
+    background-blend-mode: color-burn;
+    background-size:contain;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 8px 0px 12px;
+    position: sticky;
+    
+}
+.left-half ul{
+    display: flex;
+    list-style: none;
+}
+.left-half ul li{
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+   cursor: pointer;
+
+}
+.left-half ul li:hover{
+   color: black;
+    background-color:rgb(112, 104, 104) ;  
+}
+
+.left-half ul li i{
+    font-size: 14px;
+    padding: 0px 5px 0px 8px;
+    cursor: pointer;
+}
+.right-half i{
+    color: gray;
+    font-size: 19px;
+    margin-right: 25px;
+    cursor: pointer;
+    padding: 10px 11px;
+}
+.right-half i:hover{
+color: white;
+background-color: red;
+}
+.box{
+    border: 2px solid black;
+    width: 344px;
+    background-color: black;
+    margin: auto;
+    margin-top: 189px;
+}
+.box h1{
+    margin-left: 17px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+ }
+ 
+ .about p{
+    padding: 12px 200px 10px;
+    word-spacing: 9px;
+    font-size: 17px;
+    color: gray;
+
+ }
+ .about h1{
+    margin-top: 65px;
+    margin-top: 65px;
+    color: gray;
+    font-weight: 200;
+ }
+ .about h3{
+    margin-top: 50px;
+    margin-top: 65px;
+    color: gray;
+    font-weight: 200;
+
+ }
+ .port{
+    display: flex;
+    margin-top: 88px;
+ }
+ .port .left img{
+    padding: 35px 84px;
+    opacity: 0.5;
+    cursor: pointer;
+ }
+ .port .left img:hover{
+    opacity: 0.9;
+ }
+ .port .right p{
+    padding: 0px 173px 0px 0px;
+    word-spacing: 11px;
+    font-size: 18px;
+    color: gray;
+    
+ }
+ #rate{
+    font-size: 20px;
+ }
+ #phot{
+    margin-left: 92px;
+margin-top: 25px;
+letter-spacing: 17px;
+ }
+ .percent{
+    width: 80%;
+    background-color: #f5f2f2;
+    margin-left: 92px;
+    margin-top: 10px;
+    height: 30px;
+ }
+ .pht p{
+    color: white;
+    text-align: center;
+    padding: 6px;
+
+ }
+ .pht2 p{
+    color: white;
+    text-align: center;
+    padding: 6px;
+
+ }
+ .pht3 p{
+    color: white;
+    text-align: center;
+    padding: 6px;
+
+ }
+ .pht{
+    width: 90%;
+    background-color: black;
+    height: 30px;
+    opacity: 0.5;
+ }
+ .pht2{
+    width: 85%;
+    background-color: black;
+    height: 30px;
+    opacity: 0.5;
+ }
+ .pht3{
+    width: 75%;
+    background-color: black;
+    height: 30px;
+    opacity: 0.5;
+ }
+.portfolio h2{
+    padding: 44px 0px;
+    color: gray;
+}  
+.portfolio{
+    margin-bottom: 25px;
+}
+.img-one img{
+    width: 216px;
+    margin-right: 15px;
+}
+.img-one img:hover{
+    opacity: 0.6;
+}
+.img-one{
+    padding-left: 165px;
+}
+.image{
+    margin-top: 20px;
+}
+ #cent button{
+    border: 2px solid white;
+    height: 51px;
+    width: 130px;
+    font-size: 20px;
+}
+#cent button:hover{
+    background-color: gray;
+}
+#cent{
+    padding: 64px 0px;
+}
+.cont{
+    background-image: url("./photo/cont.jpg " );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+height: 400px;
+opacity: 0.7;
+}
+.cont center p{
+    font-size: 60px;
+    color: white;
+    padding: 154px;
+}
+#work h1{
+    color: gray;
+}
+#work p{
+    color:gray;
+}
+.feed-left img{
+    width: 285px;
+}
+.feed{
+    display: flex;
+  justify-content: center;
+}
+.up input{
+    width: 290px;
+    height: 41px;
+    padding: 0px 11px;
+    font-size: 18px;
+    margin-right: 20px;
+}
+#down input{
+    width: 631px;
+    height: 41px;
+    font-size: 18px;
+    margin-top: 15px
+}
+.feed-right{
+    margin-left: 25px;
+}
+.feed-right p{
+    margin-top: 22px;
+    color: gray;
+}
+.up{
+    margin-top: 15px;
+}
+#mes{
+    border: 2px solid black;
+    background-color: black;
+    width: 141px;
+    height: 35px;
+    margin: 10px 0px 0px 491px;
+    color: white;
+}
+#mes:hover{
+    border: 2px solid gray;
+    background-color: gray;
+    color: black;
+}
+.upper button{
+    margin-top: 200px;
+    width: 140px;
+    height: 40px;
+    font-size: 17px;
+}
+.listed i{
+    margin-top: 10px;
+    font-size: 21px;
+    color: white;
+    cursor: pointer;
+    margin-right: 7px;
+
+}
+.downer p{
+    font-size: 18px;
+    margin-top: 16px;
+    color: white;
+}
+.footer{
+    background-color: black;
+    margin-top: 70px;
+    height: 350px;
+    opacity: 0.6;
+}
+.footer:hover{
+    opacity: 0.9;
+}
+#work{
+    margin-top: 70px;
+}
+#name i {
+color: gray;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 376px) {
+    nav {
+      display: none;
+    }
+    .about h3{
+        margin: 10px 0px;
+    }
+    .about p{
+        padding: 0px 5px;
+    }
+    .port .right p {
+        display: none;
+    }
+    .port .left img {
+        padding: 0px;
+        width: 100%;
+    }
+    #phot{
+        margin: 5px 0px;
+    }
+    
+.percent{
+    margin: 10px 0px;
+}
+.img-one img {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.img-one{
+    padding:10px;
+}
+.feed{
+    flex-direction: column;
+}
+#down input{
+    width: 100%;
+}
+#mes{
+    margin:0px;
+}
+.box{
+    margin: 0px;
+}
+  }
+  @media screen and (max-width: 540px) {
+    .port .right p {
+        display: none;
+    }
+  }
+  .fa-solid{
+
+  margin-right: 8px;
+
+  }
+  .fa-regular{
+    margin-right: 5px;
+  }
